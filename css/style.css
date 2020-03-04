@@ -97,7 +97,28 @@ section#banner {
     background-repeat: no-repeat;
 }
 
-section#concept {
+section#concept,
+section#songs {
     width: 900px;
     margin: 0 auto;
+    padding: 40px 0;
+    overflow: hidden;
+}
+
+section#songs img {
+    width: 100%;
+}
+
+section#songs > div {
+    width: 50%;
+    float: left;
+}
+
+section#songs li {
+    padding: 20px 0;
+}
+
+
+section#songs li strong {
+    color: orange;
 }
