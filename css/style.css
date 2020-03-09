@@ -13,6 +13,11 @@ body {
 header {
     text-align: center;
     border: 2px solid #ccc;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #fff; 
 
 }
 header a.active {
@@ -55,7 +60,9 @@ footer p {
 }
 
 
-
+main {
+    margin-top: 137px  !important;
+}
 
 
 /*  footer finish */
@@ -81,6 +88,7 @@ main#music {
     width: 900px;
     max-width: 100%;
     margin: 30px auto;
+
 }
 
 
