@@ -214,4 +214,19 @@ form button {
         padding: 0 40px;
     }
     
+
+    main#contact form input {
+        padding: 10px;
+        font-size: 24px;
+    }
+
+    main#contact form button {
+        font-size: 22px;
+        padding: 10px 35px;
+        margin: 20px 0;
+    }
+
+    main#contact .form-group {
+        margin-bottom: 30px;
+    }
 }
